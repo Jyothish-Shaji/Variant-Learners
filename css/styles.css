@@ -488,7 +488,7 @@ progress {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 400;
   text-align: justify;
 }
 
@@ -10831,6 +10831,15 @@ html {
   height: 100%;
 }
 
+.content-section1 {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
@@ -10970,6 +10979,7 @@ html {
   font-weight: 700;
   display: block;
   max-width: 30rem;
+  text-align: left;
 }
 
 footer.footer {
